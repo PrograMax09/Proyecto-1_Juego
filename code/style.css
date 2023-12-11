@@ -1,0 +1,7 @@
+#gameScreen {
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    margin: 30px auto;
+    border: 30px solid gray;
+}
