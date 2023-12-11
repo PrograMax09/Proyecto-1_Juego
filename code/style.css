@@ -5,3 +5,9 @@
     margin: 30px auto;
     border: 30px solid gray;
 }
+
+.door {
+    height: 50px;
+    width: 30px;
+    background-color: rgb(200, 50, 30);
+}
