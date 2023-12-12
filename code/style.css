@@ -1,13 +1,124 @@
+.door {
+    position: absolute;
+    height: 100px;
+    width: 20px;
+    background-color: rgb(100, 100, 100);
+}
+
 #gameScreen {
     width: 800px;
     height: 800px;
     background-color: black;
     margin: 30px auto;
-    border: 30px solid gray;
+    margin-left: 10vw;
+    position: relative;
 }
 
-.door {
-    height: 50px;
-    width: 30px;
-    background-color: rgb(200, 50, 30);
+.wall {
+    position: absolute;
+    background-color: rgb(170, 50, 30);
+}
+
+#wall1, #wall2, #wall5, #wall6 {
+    height: 350px;
+    width: 20px;
+}
+
+#wall3, #wall4 {
+    height: 20px;
+    width: 350px;
+}
+
+#wall7, #wall8 {
+    height: 20px;
+    width: 350px;
+}
+
+#door1 {
+    height: 100px;
+    width: 20px;
+}
+
+#door2, #door4 {
+    height: 20px;
+    width: 100px;
+}
+
+#player {
+    background-color: rgb(255, 192, 97);
+    height:60px;
+    width: 35px;
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+#door1 {
+    top: 350px;
+}
+
+#door2 {
+    top: 800px;
+    left: 350px;
+}
+
+#door3 {
+    top: 350px;
+    left: 800px;
+}
+
+#door4 {
+    top: 0px;
+    left: 350px;
+}
+
+#wall1 {
+    top: 0px;
+    left: 0px;
+}
+
+#wall2 {
+    top: 450px;
+    left: 0px;
+}
+
+#wall3 {
+    top: 800px;
+    left: 0px;
+}
+
+#wall4 {
+    top: 800px;
+    left: 450px;
+}
+
+#wall5 {
+    height: 370px;
+    top: 450px;
+    left: 800px;
+}
+
+#wall6 {
+    top: 0px;
+    left: 800px;
+}
+
+#wall7 {
+    top: 0px;
+    left: 450px;
+}
+
+#wall8 {
+    top: 0px;
+    left: 0px;
 }
